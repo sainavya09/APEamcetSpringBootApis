@@ -28,6 +28,7 @@ public class Eamcet2018Service {
 	private MongoTemplate mongoTemplate;
 	private static final String INST_NAME = "inst_name";
 	private static final String BRANCH_NAME = "branch_code";
+	//add to cck
 
 	public Integer getClosingRank(String instName, String branchName, String category) throws ApplicationException {
 		String branchCode = InputMapper.getBranchCode(branchName);
